@@ -6,6 +6,7 @@ import time
 import sqlite3
 from sqlite3 import IntegrityError
 
+
 FORMAT = '%(asctime)-15s {%(filename)s:%(lineno)d} %(levelname)s - %(message)s'
 logging.basicConfig(format=FORMAT)
 log = logging.getLogger('pi')
